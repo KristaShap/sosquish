@@ -1,5 +1,5 @@
-/* end media query */
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -124,4 +124,21 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/*  fonts  */
+@font-face {
+  font-family: Stentiga;
+  src: url(stentiga.tff);
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  font-family: Stentiga, sans-serif;
+}
+
+/* end media query */
 /*# sourceMappingURL=styles.css.map */
