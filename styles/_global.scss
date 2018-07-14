@@ -11,12 +11,24 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   src: url(stentiga.tff);
 }
 
+$p-font-size: 1em;
 
 body {
   font-family: Montserrat, sans-serif;
 }
 
+p {
+  font-size: $p-font-size;
+  line-height: $p-font-size*1.618;
+  width: 60*($p-font-size/1.618);
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: 600;
   font-family: Stentiga, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2em;
 }

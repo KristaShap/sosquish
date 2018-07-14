@@ -135,10 +135,36 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
+p {
+  font-size: 1em;
+  line-height: 1.618em;
+  width: 37.08282em;
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: 600;
   font-family: Stentiga, sans-serif;
 }
 
+h1 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+body {
+  background: #F4848D;
+}
+
+@media only screen and (min-width: 560px) {
+  body {
+    background: #75F4E3;
+  }
+}
+
 /* end media query */
+@media only screen and (min-width: 1140px) {
+  body {
+    background: #16BCDD;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
